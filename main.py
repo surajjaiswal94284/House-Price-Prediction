@@ -84,9 +84,3 @@ for name,model in models.items():
     print(f"Mean R2: {scores.mean():.2f}") #R2 mean->1 ke pass(best),0 ke pass(worst))
     print(f"Std Dev: {scores.std():.2f}") #R2 std dev->0 ke pass(best),1 ke pass(worst))
     print()
-
-#scoring is used to specify the evaluation metric for cross-validation. 
-# In this case, 'r2' is used, which stands for R-squared, a common metric for regression models. 
-# Others include 'neg_mean_squared_error', 'neg_mean_absolute_error', etc.
-# cv=5 specifies that we want to perform 5-fold cross-validation, 
-# meaning the dataset will be split into 5 parts, and the model will be trained and evaluated 5 times, each time using a different part as the test set and the remaining parts as the training set.
