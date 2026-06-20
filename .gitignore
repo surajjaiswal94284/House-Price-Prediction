@@ -1,0 +1,7 @@
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+predictions.csv
+input_data.csv
+main_new.py
