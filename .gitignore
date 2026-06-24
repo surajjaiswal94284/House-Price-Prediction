@@ -4,4 +4,3 @@ __pycache__/
 *.pyc
 predictions.csv
 input_data.csv
-main_new.py
